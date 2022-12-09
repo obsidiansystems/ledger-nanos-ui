@@ -5,7 +5,7 @@ authors = ["yhql"]
 edition = "2018"
 
 [dependencies]
-nanos_sdk = "*"
+nanos_sdk = { version = "*", features = ["lib_bagl"] }
 
 [patch.crates-io]
 nanos_sdk = { git = "https://github.com/LedgerHQ/ledger-nanos-sdk" }
